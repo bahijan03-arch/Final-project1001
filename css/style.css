@@ -143,6 +143,39 @@ font-size:24px;
 .product-card p{
 font-size:18px;
 }
+.hero{
+height:80vh;
+background:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
 
+.overlay{
+color:white;
+background:rgba(0,0,0,0.3);
+padding:40px;
+border-radius:12px;
+}
+
+.overlay h2{
+font-size:90px;
+font-family:serif;
+margin:0;
+}
+
+.hero-line{
+width:2px;
+height:120px;
+background:white;
+margin:20px auto;
+}
+
+.overlay p{
+font-size:24px;
+}
 }
 
